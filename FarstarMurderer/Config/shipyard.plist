@@ -1,0 +1,27 @@
+{
+	"farstar_murderer-player" = {
+		chance = 0.7;
+		optional_equipment = (
+			"EQ_DOCK_COMP",
+			"EQ_ECM",
+			"EQ_ENERGY_UNIT",
+			"EQ_FUEL_INJECTION",
+			"EQ_FUEL_SCOOPS",
+			"EQ_GAL_DRIVE",
+			"EQ_MULTI_TARGET",
+			"EQ_NAVAL_ENERGY_UNIT",
+			"EQ_SCANNER_SHOW_MISSILE_TARGET",
+			"EQ_WEAPON_BEAM_LASER",
+			"EQ_WEAPON_MILITARY_LASER",
+			"EQ_WEAPON_PULSE_LASER"
+		);
+		price = 270000;
+		standard_equipment = {
+			extras = ("EQ_FUEL_SCOOPS");
+			forward_weapon_type = "EQ_WEAPON_MILITARY_LASER";
+			missiles = 1;
+		};
+		techlevel = 3;
+		weapon_facings = 3;
+	};
+}

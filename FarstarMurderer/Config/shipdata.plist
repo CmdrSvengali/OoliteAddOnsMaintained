@@ -1,0 +1,83 @@
+{
+	"farstar_murderer" = {
+		aft_eject_position = "0 -17 -46";
+		ai_type = "route1traderAI.plist";
+		cargo_type = "CARGO_NOT_CARGO";
+		energy_recharge_rate = 7.0;
+		escorts = 0;
+		exhaust = ("7.25 4.8 -50 5 5 1","-7.48 4.8 -50 5 5 1");
+		forward_weapon_type = "WEAPON_MILITARY_LASER";
+		has_ecm = yes;
+		has_escape_pod = no;
+		has_scoop = yes;
+		likely_cargo = 2;
+		materials = {
+			"farstar_murderer.png" = {
+				diffuse_map = "farstar_murderer.png";
+				emission_map = {name = "farstar_murderer.png"; extract_channel = "b"; min_filter = "linear"; };
+				emission_modulate_color = "0.5 0.5 0.5 1";
+				gloss = 0.6;
+				normal_map = {name = "farstar_murderer_n.png"; min_filter = "linear"; };
+				shininess = 128;
+				specular_color = "grayColor";
+			};
+		};
+		max_cargo = 10;
+		max_energy = 350.0;
+		max_flight_pitch = 1.7;
+		max_flight_roll = 1.1;
+		max_flight_speed = 350.0;
+		max_missiles = 2;
+		missiles = 2;
+		missile_launch_position = "0 -13 27";
+		model = "farstar_murderer.dat";
+		name = "Far Star";
+		roles = "trader(0.15) farstar_murderer";
+		scoop_position = "0 -13 28";
+		thrust = 40.0;
+		view_position_aft = "0 12.5 -51.5";
+		view_position_forward = "0 7.25 16.25";
+		view_position_port = "-14 4.75 0";
+		view_position_starboard = "14 4.75 0";
+		weapon_energy = 8.0;
+		weapon_facings = 3;
+		weapon_position_aft = "0 0 -52";
+		weapon_position_forward = "0 0 61.5";
+		weapon_position_port = "-17.64 -0.23 -13.43";
+		weapon_position_starboard = "17.7 2.17 -13.53";
+	};
+	"farstar_murderer_pirate" = {
+		aft_weapon_type = "WEAPON_MILITARY_LASER";
+		ai_type = "pirateAI.plist";
+		bounty = 70;
+		like_ship = "farstar_murderer";
+		model = "farstar_murderer.dat";
+		name = "Far Star";
+		roles = "pirate(0.2) farstar_murderer";
+		weapon_energy = 12.0;
+	};
+	"farstar_murderer-player" = {
+		cloak_passive = yes;
+		custom_views = (
+			{view_orientation = "1.0 0.0 0.0 0.0"; view_position = "0.0 30.0 -200.0"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.9239 0.0 0.3827 0.0"; view_position = "141.42 30.0 -141.42"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.7071 0.0 0.7071 0.0"; view_position = "200.0 30.0 0.0"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.3827 0.0 0.9239 0.0"; view_position = "141.42 30.0 141.42"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.0 0.0 1.0 0.0"; view_position = "0.0 30.0 200.0"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.3827 0.0 -0.9239 0.0"; view_position = "-141.42 30.0 141.42"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.7071 0.0 -0.7071 0.0"; view_position = "-200.0 30.0 0.0"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.9239 0.0 -0.3827 0.0"; view_position = "-141.42 30.0 -141.42"; weapon_facing = "FORWARD";},
+			{view_orientation = "-0.7071 0.7071 0.0 0.0"; view_position = "0.0 240.0 -15.0"; weapon_facing = "FORWARD";},
+			{view_orientation = "0.0 0.0 0.7071 0.7071"; view_position = "0.0 -240.0 -15.0"; weapon_facing = "FORWARD";}
+		);
+		forward_weapon_type = "WEAPON_MILITARY_LASER";
+		like_ship = "farstar_murderer";
+		max_cargo = 45;
+		max_flight_roll = 1.2;
+		max_missiles = 2;
+		missiles = 2;
+		model = "farstar_murderer.dat";
+		name = "Far Star";
+		roles = "player";
+	};
+}

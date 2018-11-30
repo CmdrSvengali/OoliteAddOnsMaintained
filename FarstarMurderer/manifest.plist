@@ -1,0 +1,12 @@
+{
+	author = "Svengali";
+	category = "Ship";
+	description = "Fast and agile assassination ship. Originally by 8-Bit Apocalypse.";
+	identifier = "oolite.oxp.Svengali.FarstarMurderer";
+	information_url = "http://wiki.alioth.net/index.php/Far_Star_Murderer";
+	license = "CC-by-nc-sa 4.0";
+	required_oolite_version = "1.88";
+	tags = ("ship","pirate","trader","player");
+	title = "FarstarMurderer";
+	version = "1.2";
+}
