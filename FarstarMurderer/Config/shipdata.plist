@@ -1,15 +1,18 @@
 {
 	"farstar_murderer" = {
 		aft_eject_position = "0 -17 -46";
-		ai_type = "route1traderAI.plist";
+		ai_type = "oolite-traderAI.js";
+		auto_ai = yes;
 		cargo_type = "CARGO_NOT_CARGO";
 		energy_recharge_rate = 7.0;
 		escorts = 0;
-		exhaust = ("7.25 4.8 -50 5 5 1","-7.48 4.8 -50 5 5 1");
+		exhaust = ("7.25 4.8 -52 4.5 4.5 1","-7.48 4.8 -52 4.5 4.5 1");
 		forward_weapon_type = "WEAPON_MILITARY_LASER";
+		fuel = 70;
 		has_ecm = yes;
 		has_escape_pod = no;
 		has_scoop = yes;
+		heat_insulation = 1.3;
 		likely_cargo = 2;
 		materials = {
 			"farstar_murderer.png" = {
@@ -41,15 +44,15 @@
 		view_position_starboard = "14 4.75 0";
 		weapon_energy = 8.0;
 		weapon_facings = 3;
-		weapon_position_aft = "0 0 -52";
+		weapon_position_aft = "0 0 -51.5";
 		weapon_position_forward = "0 0 61.5";
 		weapon_position_port = "-17.64 -0.23 -13.43";
-		weapon_position_starboard = "17.7 2.17 -13.53";
+		weapon_position_starboard = "17.64 -0.23 -13.43";
 	};
 	"farstar_murderer_pirate" = {
 		aft_weapon_type = "WEAPON_MILITARY_LASER";
-		ai_type = "pirateAI.plist";
-		bounty = 70;
+		ai_type = "oolite-pirateAI.js";
+		bounty = 40;
 		like_ship = "farstar_murderer";
 		model = "farstar_murderer.dat";
 		name = "Far Star";
@@ -70,6 +73,7 @@
 			{view_orientation = "-0.7071 0.7071 0.0 0.0"; view_position = "0.0 240.0 -15.0"; weapon_facing = "FORWARD";},
 			{view_orientation = "0.0 0.0 0.7071 0.7071"; view_position = "0.0 -240.0 -15.0"; weapon_facing = "FORWARD";}
 		);
+		extra_cargo = 8;
 		forward_weapon_type = "WEAPON_MILITARY_LASER";
 		like_ship = "farstar_murderer";
 		max_cargo = 45;

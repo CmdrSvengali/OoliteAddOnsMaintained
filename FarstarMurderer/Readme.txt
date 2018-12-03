@@ -1,6 +1,6 @@
 Far Star Murderer 1.2 for Oolite
 Copyright 2005-2018 by 8-Bit Apocalypse
-Licence: CC-by-ns-sa 4.0
+Licence: CC-by-nc-sa 4.0
 Maintainer: Svengali
 
 REQUIREMENTS:
