@@ -1,0 +1,82 @@
+{
+	"remorse_of_conscience" = {
+		aft_eject_position = "0 -20 -46";
+		ai_type = "oolite-traderAI.js";
+		auto_ai = yes;
+		bounty = 0;
+		cargo_type = "CARGO_NOT_CARGO";
+		energy_recharge_rate = 4.0;
+		escorts = 0;
+		exhaust = ("0 0.7 -58 6 6 0.7","22.8 5.4 -57.4 4 1.6 0.6","-23.4 5.4 -57.4 4 1.6 0.6");
+		exhaust_emissive_color = (0.2,0.6,0.7,0.89);
+		forward_weapon_type = "WEAPON_MILITARY_LASER";
+		fuel = 70;
+		has_ecm = yes;
+		has_escape_pod = no;
+		has_scoop = yes;
+		heat_insulation = 1.3;
+		likely_cargo = 4;
+		materials = {"remorse_of_conscience.png" = {
+			diffuse_map = "remorse_of_conscience.png";
+			emission_map = {name = "remorse_of_conscience.png"; extract_channel = "b"; };
+			emission_modulate_color = (0.3,0.6,0.7,1);
+			gloss = 0.6;
+			normal_map = "remorse_of_conscience_n.png";
+			shininess = 60;
+			specular_color = "0.5 0.5 0.5 1";
+		};};
+		max_cargo = 40;
+		max_energy = 290.0;
+		max_flight_pitch = 1.5;
+		max_flight_roll = 1.3;
+		max_flight_speed = 470.0;
+		max_missiles = 4;
+		missiles = 4;
+		missile_launch_position = "0 -16 20";
+		missile_load_time = 2.5;
+		model = "remorse_of_conscience.dat";
+		name = "Remorse Of Conscience";
+		roles = "hunter(0.03) trader(0.1) roc";
+		scoop_position = "0 -14 3";
+		thrust = 45.0;
+		view_position_aft = "0 16.5 -58";
+		view_position_forward = "0 9.25 35.25";
+		view_position_port = "-30 4.75 -31";
+		view_position_starboard = "30 4.75 -31";
+		weapon_energy = 7.0;
+		weapon_facings = 3;
+		weapon_position_aft = "0 11 -57";
+		weapon_position_forward = "-0.37 -5 68";
+	};
+	"remorse_of_conscience_pirate" = {
+		aft_weapon_type = "WEAPON_BEAM_LASER";
+		ai_type = "oolite-pirateAI.js";
+		bounty = 70;
+		like_ship = "remorse_of_conscience";
+		model = "remorse_of_conscience.dat";
+		name = "Remorse Of Conscience";
+		roles = "pirate(0.08) roc";
+	};
+	"remorse_of_conscience2-player" = {
+		cloak_passive = yes;
+		custom_views = (
+			{view_orientation="1 0 0 0"; view_position="0 50 -320"; weapon_facing=FORWARD;},
+			{view_orientation="0.9239 0 -0.3827 0"; view_position="-220.71 30 -260.71"; weapon_facing=FORWARD;},
+			{view_orientation="0.7071 0 -0.7071 0"; view_position="-280 30 0"; weapon_facing=FORWARD;},
+			{view_orientation="0.3827 0 -0.9239 0"; view_position="-220.71 30 260.71"; weapon_facing=FORWARD;},
+			{view_orientation="0 0 1 0"; view_position="0 60 320"; weapon_facing=FORWARD;},
+			{view_orientation="0.3827 0 0.9239 0"; view_position="220.71 30 260.71"; weapon_facing=FORWARD;},
+			{view_orientation="0.7071 0 0.7071 0"; view_position="280 30 0"; weapon_facing=FORWARD;},
+			{view_orientation="0.9239 0 0.3827 0"; view_position="220.71 30 -260.71"; weapon_facing=FORWARD;},
+			{view_orientation="-0.8192 0.5736 0 0"; view_position="0 520 -120"; weapon_facing=FORWARD;},
+			{view_orientation="-0.8192 -0.5736 0 0"; view_position="0 -220 -60"; weapon_facing=FORWARD;}
+		);
+		extra_cargo = 8;
+		forward_weapon_type = "WEAPON_BEAM_LASER";
+		like_ship = "remorse_of_conscience";
+		max_cargo = 60;
+		model = "remorse_of_conscience.dat";
+		name = "Remorse Of Conscience v2";
+		roles = "player";
+	};
+}

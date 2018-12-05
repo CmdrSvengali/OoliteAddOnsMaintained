@@ -1,0 +1,12 @@
+{
+	author = "Svengali";
+	category = "Ship";
+	description = "A trade ship with a large hold, that can hold its own in combat. Originally by 8-Bit Apocalypse.";
+	identifier = "oolite.oxp.Svengali.RemorseOfConscience";
+	information_url = "http://wiki.alioth.net/index.php/Remorse_Of_Conscience_v2";
+	license = "CC-by-nc-sa 4.0";
+	required_oolite_version = "1.88";
+	tags = ("ship","pirate","trader","player");
+	title = "RemorseOfConscience";
+	version = "2.2";
+}

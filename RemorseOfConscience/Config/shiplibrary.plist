@@ -1,0 +1,7 @@
+(
+	{
+		ship = "remorse_of_conscience";
+		class = "ship";
+		description = "A trade ship with a large hold, that can hold its own in combat. But the RoC is more than that - it's a promise. A good upgrade from the Cobra Mk III.";
+	}
+)

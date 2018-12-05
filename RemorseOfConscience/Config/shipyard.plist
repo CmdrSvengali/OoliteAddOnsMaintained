@@ -1,0 +1,34 @@
+{
+	"remorse_of_conscience2-player" = {
+		chance = 0.3;
+		optional_equipment = (
+			"EQ_ADVANCED_COMPASS",
+			"EQ_CARGO_BAY",
+			"EQ_DOCK_COMP",
+			"EQ_ECM",
+			"EQ_ENERGY_UNIT",
+			"EQ_ESCAPE_POD",
+			"EQ_FUEL_INJECTION",
+			"EQ_FUEL_SCOOPS",
+			"EQ_GAL_DRIVE",
+			"EQ_HEAT_SHIELD",
+			"EQ_MULTI_TARGET",
+			"EQ_NAVAL_ENERGY_UNIT",
+			"EQ_PASSENGER_BERTH",
+			"EQ_SCANNER_SHOW_MISSILE_TARGET",
+			"EQ_SHIELD_BOOSTER",
+			"EQ_WEAPON_BEAM_LASER",
+			"EQ_WEAPON_MILITARY_LASER",
+			"EQ_WEAPON_MINING_LASER",
+			"EQ_WEAPON_PULSE_LASER"
+		);
+		price = 299000;
+		standard_equipment = {
+			extras = ("EQ_FUEL_SCOOPS");
+			forward_weapon_type = "EQ_WEAPON_PULSE_LASER";
+			missiles = 1;
+		};
+		techlevel = 5;
+		weapon_facings = 3;
+	};
+}
